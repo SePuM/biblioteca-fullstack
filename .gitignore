@@ -1,0 +1,29 @@
+# Dependencias
+node_modules/
+.pnpm-store/
+
+# Next.js / Builds
+library_api/.next/
+library_api/dist/
+
+# Expo / React Native
+library_app/.expo/
+library_app/dist/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Variables de entorno y llaves privadas (NUNCA SUBIR)
+.env
+.env.local
+*.env
+!.env.example
+*-firebase-adminsdk-*.json
+serviceAccount*.json
+
+# Archivos de sistema y logs
+*.log
+.DS_Store
+Thumbs.db
